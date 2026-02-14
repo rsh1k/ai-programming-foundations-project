@@ -1,0 +1,14 @@
+# Environments
+venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data (If large)
+data/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
