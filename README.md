@@ -30,3 +30,15 @@ This project serves as a professional, reusable foundation for several advanced 
 3. Open the Jupyter Notebook:
    ```jupyter notebook notebooks/data_workflow.ipynb```
 
+## Future Integration & Reflections
+
+### 1. Machine Learning (ML) Workflow Changes
+This project establishes a high-quality data foundation that is essential for predictive modeling. To evolve this into a full ML workflow, I would implement **feature selection** to isolate the variables with the highest predictive power for pricing and **split the dataset** into training and testing subsets to validate model accuracy.
+
+### 2. Neural Network Preparation
+To prepare this dataset for a Deep Learning or Neural Network model, the following preprocessing steps would be required:
+* **One-Hot Encoding**: Categorical features like `neighbourhood_group` and `room_type` must be converted into numerical vectors to be processed by a neural network.
+* **Feature Scaling**: Numerical attributes such as `latitude`, `longitude`, and `availability_365` would require normalization or standardization so that varying scales do not distort the model's weight distribution.
+
+### 3. Agentic Automation Potential
+The modular functions developed for cleaning and EDA are designed to be used by **Agentic AI**. An autonomous agent could utilize these modules to ingest new 2026 market data, automatically sanitize it, and generate real-time pricing alerts or market reports for property managers without requiring human intervention.
